@@ -85,6 +85,11 @@ const LinksSection = () => {
         <p className="font-myriad text-white text-sm tracking-wide -mt-2">
           → Solicitar orçamento pra criar meu Saas
         </p>
+        <SocialButton
+          icon={whatsappLink.icon}
+          label="MICRO SAAS"
+          href="#"
+        />
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
