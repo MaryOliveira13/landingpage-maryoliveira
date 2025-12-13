@@ -98,6 +98,9 @@ const LinksSection = () => {
           label="EDIÇÃO DE VÍDEO"
           href="#"
         />
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          → Transformar meus vídeos em conteúdo de alto impacto.
+        </p>
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
