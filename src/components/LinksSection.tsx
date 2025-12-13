@@ -95,7 +95,7 @@ const LinksSection = () => {
         </p>
         <SocialButton
           icon={whatsappLink.icon}
-          label="POST PARA INSTAGRAM"
+          label="EDIÇÃO DE VÍDEO"
           href="#"
         />
         
