@@ -93,6 +93,11 @@ const LinksSection = () => {
         <p className="font-myriad text-white text-sm tracking-wide -mt-2">
           → Receber pacote de posts para bombar meu perfil.
         </p>
+        <SocialButton
+          icon={whatsappLink.icon}
+          label="POST PARA INSTAGRAM"
+          href="#"
+        />
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
