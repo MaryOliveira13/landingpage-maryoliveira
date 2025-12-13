@@ -77,6 +77,11 @@ const LinksSection = () => {
         <p className="font-myriad text-white text-sm tracking-wide -mt-2">
           → Criar uma Landing Page focada em conversão.
         </p>
+        <SocialButton
+          icon={whatsappLink.icon}
+          label="LANDING PAGE"
+          href="#"
+        />
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
