@@ -74,6 +74,9 @@ const LinksSection = () => {
           label={whatsappLink.label}
           href={whatsappLink.href}
         />
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          → Criar uma Landing Page focada em conversão.
+        </p>
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
