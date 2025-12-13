@@ -79,7 +79,7 @@ const LinksSection = () => {
         </p>
         <SocialButton
           icon={whatsappLink.icon}
-          label="LANDING PAGE"
+          label="MICRO SAAS"
           href="#"
         />
         
