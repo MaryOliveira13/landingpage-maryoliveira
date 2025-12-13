@@ -87,7 +87,7 @@ const LinksSection = () => {
         </p>
         <SocialButton
           icon={whatsappLink.icon}
-          label="MICRO SAAS"
+          label="POST PARA INSTAGRAM"
           href="#"
         />
         
