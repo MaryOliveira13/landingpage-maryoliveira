@@ -114,6 +114,9 @@ const LinksSection = () => {
           label="CATÁLOGO/CARDÁPIO"
           href="#"
         />
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          Otimizar meu cardápio ou catálogo em algo bonito, claro e que vende.
+        </p>
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
