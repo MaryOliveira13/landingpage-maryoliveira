@@ -109,6 +109,11 @@ const LinksSection = () => {
         <p className="font-myriad text-white text-sm tracking-wide -mt-2">
           Construir uma marca com identidade forte e memorável.
         </p>
+        <SocialButton
+          icon={whatsappLink.icon}
+          label="CATÁLOGO/CARDÁPIO"
+          href="#"
+        />
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
