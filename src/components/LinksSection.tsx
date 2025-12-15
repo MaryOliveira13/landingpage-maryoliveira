@@ -74,48 +74,48 @@ const LinksSection = () => {
           label={whatsappLink.label}
           href={whatsappLink.href}
         />
-        <p className="font-myriad text-white text-sm tracking-wide -mt-2 text-center">
-          Landing Page focada em conversão
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          Criar uma Landing Page focada em conversão.
         </p>
         <SocialButton
           icon={whatsappLink.icon}
           label="MICRO SAAS"
           href="#"
         />
-        <p className="font-myriad text-white text-sm tracking-wide -mt-2 text-center">
-          Orçamento para criar seu Saas
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          Solicitar orçamento pra criar meu Saas
         </p>
         <SocialButton
           icon={whatsappLink.icon}
           label="POST PARA INSTAGRAM"
           href="#"
         />
-        <p className="font-myriad text-white text-sm tracking-wide -mt-2 text-center">
-          Posts para bombar seu perfil
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          Receber pacote de posts para bombar meu perfil.
         </p>
         <SocialButton
           icon={whatsappLink.icon}
           label="EDIÇÃO DE VÍDEO"
           href="#"
         />
-        <p className="font-myriad text-white text-sm tracking-wide -mt-2 text-center">
-          Vídeos de alto impacto
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          Transformar meus vídeos em conteúdo de alto impacto.
         </p>
         <SocialButton
           icon={whatsappLink.icon}
           label="BRANDING/LOGOTIPO"
           href="#"
         />
-        <p className="font-myriad text-white text-sm tracking-wide -mt-2 text-center">
-          Marca forte e memorável
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          Construir uma marca com identidade forte e memorável.
         </p>
         <SocialButton
           icon={whatsappLink.icon}
           label="CATÁLOGO/CARDÁPIO"
           href="#"
         />
-        <p className="font-myriad text-white text-sm tracking-wide -mt-2 text-center">
-          Cardápio bonito e que vende
+        <p className="font-myriad text-white text-sm tracking-wide -mt-2">
+          Otimizar meu cardápio ou catálogo em algo bonito, claro e que vende.
         </p>
         
         {/* Section Title */}
