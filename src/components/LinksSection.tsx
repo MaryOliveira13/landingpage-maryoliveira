@@ -101,6 +101,11 @@ const LinksSection = () => {
         <p className="font-myriad text-white text-sm tracking-wide -mt-2">
           → Transformar meus vídeos em conteúdo de alto impacto.
         </p>
+        <SocialButton
+          icon={whatsappLink.icon}
+          label="BRANDING/LOGOTIPO"
+          href="#"
+        />
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
