@@ -7,7 +7,7 @@ const LandingPageIcon = () => (
   <img 
     src={landingIcon} 
     alt="Landing Page" 
-    className="w-6 h-6 md:w-8 md:h-8 object-contain"
+    className="w-8 h-8 md:w-10 md:h-10 object-contain"
   />
 );
 
