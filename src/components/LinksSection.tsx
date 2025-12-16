@@ -1,14 +1,10 @@
 import SocialButton from './SocialButton';
 import behanceLogo from '@/assets/behance-logo.png';
-import landingIcon from '@/assets/landing-icon.png';
+import { LayoutTemplate } from 'lucide-react';
 
-// Custom SVG icons matching the design
+// Custom icons
 const LandingPageIcon = () => (
-  <img 
-    src={landingIcon} 
-    alt="Landing Page" 
-    className="w-10 h-10 md:w-12 md:h-12 object-contain"
-  />
+  <LayoutTemplate className="w-6 h-6 md:w-7 md:h-7" strokeWidth={1.5} />
 );
 
 const WhatsAppIcon = () => (
