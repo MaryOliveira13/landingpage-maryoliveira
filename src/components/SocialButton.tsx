@@ -4,9 +4,10 @@ interface SocialButtonProps {
   icon: ReactNode;
   label: string;
   href: string;
+  description?: string;
 }
 
-const SocialButton = ({ icon, label, href }: SocialButtonProps) => {
+const SocialButton = ({ icon, label, href, description }: SocialButtonProps) => {
   return (
     <a
       href={href}
@@ -28,10 +29,17 @@ const SocialButton = ({ icon, label, href }: SocialButtonProps) => {
           </div>
         </div>
         
-        {/* Label */}
-        <span className="font-montserrat font-bold text-base md:text-lg tracking-wider text-foreground">
-          {label}
-        </span>
+        {/* Label and Description */}
+        <div className="flex flex-col">
+          <span className="font-montserrat font-bold text-base md:text-lg tracking-wider text-foreground">
+            {label}
+          </span>
+          {description && (
+            <span className="font-myriad text-sm text-white/80 tracking-wide">
+              {description}
+            </span>
+          )}
+        </div>
       </div>
       
       {/* Hover glow effect */}
