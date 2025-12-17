@@ -68,24 +68,57 @@ const BehanceIcon = () => (
 const landingPageLink = {
   icon: <LandingPageIcon />,
   label: 'LANDING PAGE',
-  href: '#', // Replace with actual link
+  href: 'https://wa.me/5517992328096?text=Olá!+Gostaria+de+solicitar+um+orçamento+para+criação+de+uma+landing+page',
 };
+
+const serviceLinks = [
+  {
+    icon: <MicroSaasIcon />,
+    label: 'MICRO SAAS',
+    href: 'https://wa.me/5517992328096?text=Olá!+Gostaria+de+conversar+sobre+o+desenvolvimento+de+um+Micro+SaaS',
+    description: 'Orçamento para criar seu Saas.',
+  },
+  {
+    icon: <InstagramPostIcon />,
+    label: 'POST PARA INSTAGRAM',
+    href: 'https://wa.me/5517992328096?text=Olá!+Gostaria+de+informações+sobre+o+serviço+de+criação+de+posts+para+Instagram',
+    description: 'Posts para bombar seu perfil.',
+  },
+  {
+    icon: <VideoEditIcon />,
+    label: 'EDIÇÃO DE VÍDEO',
+    href: 'https://wa.me/5517992328096?text=Olá!+Gostaria+de+solicitar+um+orçamento+para+edição+de+vídeo',
+    description: 'Vídeos de alto impacto.',
+  },
+  {
+    icon: <BrandingIcon />,
+    label: 'BRANDING/LOGOTIPO',
+    href: 'https://wa.me/5517992328096?text=Olá!+Gostaria+de+informações+sobre+o+serviço+de+branding+e+criação+de+logotipo',
+    description: 'Marca forte e memorável.',
+  },
+  {
+    icon: <CatalogIcon />,
+    label: 'CATÁLOGO/CARDÁPIO',
+    href: 'https://wa.me/5517992328096?text=Olá!+Gostaria+de+solicitar+um+orçamento+para+criação+de+catálogo/cardápio',
+    description: 'Cardápio bonito e que vende.',
+  },
+];
 
 const socialLinks = [
   {
     icon: <InstagramIcon />,
     label: 'INSTAGRAM',
-    href: '#', // Replace with actual Instagram link
+    href: 'https://www.instagram.com/maryoliiv_/',
   },
   {
     icon: <TikTokIcon />,
     label: 'TIKTOK',
-    href: '#', // Replace with actual TikTok link
+    href: 'https://www.tiktok.com/@maryoliiv?_r=1&_t=ZS-92Ik3OBSL0n',
   },
   {
     icon: <BehanceIcon />,
     label: 'BEHANCE',
-    href: '#', // Replace with actual Behance link
+    href: 'https://www.behance.net/marialteixeir8',
   },
 ];
 
@@ -110,36 +143,15 @@ const LinksSection = () => {
           href={landingPageLink.href}
           description="Landing Page focada em conversão."
         />
-        <SocialButton
-          icon={<MicroSaasIcon />}
-          label="MICRO SAAS"
-          href="#"
-          description="Orçamento para criar seu Saas."
-        />
-        <SocialButton
-          icon={<InstagramPostIcon />}
-          label="POST PARA INSTAGRAM"
-          href="#"
-          description="Posts para bombar seu perfil."
-        />
-        <SocialButton
-          icon={<VideoEditIcon />}
-          label="EDIÇÃO DE VÍDEO"
-          href="#"
-          description="Vídeos de alto impacto."
-        />
-        <SocialButton
-          icon={<BrandingIcon />}
-          label="BRANDING/LOGOTIPO"
-          href="#"
-          description="Marca forte e memorável."
-        />
-        <SocialButton
-          icon={<CatalogIcon />}
-          label="CATÁLOGO/CARDÁPIO"
-          href="#"
-          description="Cardápio bonito e que vende."
-        />
+        {serviceLinks.map((link, index) => (
+          <SocialButton
+            key={index}
+            icon={link.icon}
+            label={link.label}
+            href={link.href}
+            description={link.description}
+          />
+        ))}
         
         {/* Section Title */}
         <div className="text-3xl mt-12 mb-8 text-center">
