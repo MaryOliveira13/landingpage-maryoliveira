@@ -1,10 +1,40 @@
 import SocialButton from './SocialButton';
 import behanceLogo from '@/assets/behance-logo.png';
-import { LayoutTemplate } from 'lucide-react';
+import { 
+  LayoutTemplate, 
+  Cpu, 
+  Camera, 
+  Clapperboard, 
+  Palette, 
+  BookOpen 
+} from 'lucide-react';
 
-// Custom icons
+// Custom icons with consistent styling
+const iconClass = "w-6 h-6 md:w-7 md:h-7";
+const iconStroke = 1.5;
+
 const LandingPageIcon = () => (
-  <LayoutTemplate className="w-6 h-6 md:w-7 md:h-7" strokeWidth={1.5} />
+  <LayoutTemplate className={iconClass} strokeWidth={iconStroke} />
+);
+
+const MicroSaasIcon = () => (
+  <Cpu className={iconClass} strokeWidth={iconStroke} />
+);
+
+const InstagramPostIcon = () => (
+  <Camera className={iconClass} strokeWidth={iconStroke} />
+);
+
+const VideoEditIcon = () => (
+  <Clapperboard className={iconClass} strokeWidth={iconStroke} />
+);
+
+const BrandingIcon = () => (
+  <Palette className={iconClass} strokeWidth={iconStroke} />
+);
+
+const CatalogIcon = () => (
+  <BookOpen className={iconClass} strokeWidth={iconStroke} />
 );
 
 const WhatsAppIcon = () => (
@@ -81,31 +111,31 @@ const LinksSection = () => {
           description="Landing Page focada em conversão."
         />
         <SocialButton
-          icon={<WhatsAppIcon />}
+          icon={<MicroSaasIcon />}
           label="MICRO SAAS"
           href="#"
           description="Orçamento para criar seu Saas."
         />
         <SocialButton
-          icon={<WhatsAppIcon />}
+          icon={<InstagramPostIcon />}
           label="POST PARA INSTAGRAM"
           href="#"
           description="Posts para bombar seu perfil."
         />
         <SocialButton
-          icon={<WhatsAppIcon />}
+          icon={<VideoEditIcon />}
           label="EDIÇÃO DE VÍDEO"
           href="#"
           description="Vídeos de alto impacto."
         />
         <SocialButton
-          icon={<WhatsAppIcon />}
+          icon={<BrandingIcon />}
           label="BRANDING/LOGOTIPO"
           href="#"
           description="Marca forte e memorável."
         />
         <SocialButton
-          icon={<WhatsAppIcon />}
+          icon={<CatalogIcon />}
           label="CATÁLOGO/CARDÁPIO"
           href="#"
           description="Cardápio bonito e que vende."
