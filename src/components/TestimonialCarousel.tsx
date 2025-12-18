@@ -39,11 +39,11 @@ const TestimonialCarousel = () => {
         </button>
 
         {/* Image Container */}
-        <div className="relative w-56 h-96 md:w-64 md:h-[420px] rounded-2xl overflow-hidden shadow-2xl">
+        <div className="relative w-52 md:w-60 rounded-2xl overflow-hidden shadow-2xl">
           <img
             src={testimonials[currentIndex].src}
             alt={testimonials[currentIndex].alt}
-            className="w-full h-full object-cover transition-opacity duration-300"
+            className="w-full h-auto transition-opacity duration-300"
           />
         </div>
 
