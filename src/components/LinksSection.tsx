@@ -1,4 +1,5 @@
 import SocialButton from './SocialButton';
+import TestimonialCarousel from './TestimonialCarousel';
 import behanceLogo from '@/assets/behance-logo.png';
 import { 
   LayoutTemplate, 
@@ -153,8 +154,13 @@ const LinksSection = () => {
           />
         ))}
         
+        {/* Testimonial Carousel */}
+        <div className="mt-12 mb-6 w-full">
+          <TestimonialCarousel />
+        </div>
+
         {/* Section Title */}
-        <div className="text-3xl mt-12 mb-8 text-center">
+        <div className="text-3xl mt-6 mb-8 text-center">
           <p className="font-myriad font-normal text-white tracking-wide">Minhas</p>
           <p className="font-montserrat font-extrabold gradient-text tracking-wide">REDES SOCIAIS:</p>
         </div>
